@@ -1,0 +1,9 @@
+datProvider\ExcelDataProvider.class
+factory\BrowserFactory.class
+testcases\VerifyPageTitle.class
+testcases\VerifyValidLogin.class
+Utility\TakeScreenShot.class
+datProvider\ConfigDataProvider.class
+factory\DataProviderFactory.class
+Pages\LoginPage.class
+Pages\HomePage.class

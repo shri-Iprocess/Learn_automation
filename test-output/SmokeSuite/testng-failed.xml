@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SmokeSuite]" parallel="methods">
+  <test name="SmokeTest(failed)" parallel="methods">
+    <classes>
+      <class name="testcases.VerifyPageTitle">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="testHomePage"/>
+        </methods>
+      </class> <!-- testcases.VerifyPageTitle -->
+      <class name="testcases.VerifyValidLogin">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="verifylogin"/>
+        </methods>
+      </class> <!-- testcases.VerifyValidLogin -->
+    </classes>
+  </test> <!-- SmokeTest(failed) -->
+  <test name="SmokeTest1(failed)" parallel="methods">
+    <classes>
+      <class name="testcases.VerifyPageTitle">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="testHomePage"/>
+        </methods>
+      </class> <!-- testcases.VerifyPageTitle -->
+      <class name="testcases.VerifyValidLogin">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="verifylogin"/>
+        </methods>
+      </class> <!-- testcases.VerifyValidLogin -->
+    </classes>
+  </test> <!-- SmokeTest1(failed) -->
+</suite> <!-- Failed suite [SmokeSuite] -->
